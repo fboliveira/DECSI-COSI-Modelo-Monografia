@@ -1,0 +1,34 @@
+% Este é o modelo do abnTeX2
+% ---
+% inserir lista de abreviaturas e siglas
+% ---
+%\begin{siglas}
+%  \item[ABNT] Associação Brasileira de Normas Técnicas
+%  \item[abnTeX] ABsurdas Normas para TeX
+%\end{siglas}
+% ---
+
+%
+% Outra opção é utilizar o pacote Acronym (mais funcional).
+%
+
+%\ac{SW}  	SW documents are beautifully typeset.
+%\acf{SW} 	Scientific Word (SW) documents are beautifully typeset.
+%\acs{SW} 	SW documents are beautifully typeset.
+%\acl{SW} 	Scientific Word documents are beautifully typeset.
+
+\pdfbookmark[0]{\listadesiglasname}{los}
+\chapter*{\listadesiglasname}%
+
+% Incluir no sumário
+% \addcontentsline{toc}{chapter}{\listadesiglasname}%
+
+\begin{acronym}
+  \acro{COSI}{Colegiado do Curso de Sistemas de Informação}
+  \acro{DECSI}{Departamento de Computação e Sistemas}
+  \acro{ICEA}{Instituto de Ciências Exatas e Aplicadas}
+  \acro{JM}{João Monlevade}
+  \acro{SI}{Sistemas de Informação}
+  \acro{UFOP}{Universidade Federal de Ouro Preto}
+	\acro{VRP}{\textit{Vehicle Routing Problem}}
+\end{acronym}
