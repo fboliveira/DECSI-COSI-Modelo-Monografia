@@ -25,6 +25,8 @@
 %%		- Mudanças na capa
 %% 		- Inclusão do Termo de Responsabilidade e da Ata de Defesa atualizada.
 %% ------------------------
+%%  - 2017/08/25 - Correções na Folha de Aprovação e na Ata - remover "Prof."
+%% ------------------------
 
 
 \NeedsTeXFormat{LaTeX2e}
@@ -361,7 +363,7 @@
 
     \abntex@ifnotempty{\imprimirorientador}{%
       \assinatura{
-        Prof. \imprimirorientador \linebreak
+        \imprimirorientador \linebreak
         \ABNTEXfontereduzida\imprimirorientadorTitulacao \linebreak
 %       Orientador \linebreak
         \ABNTEXfontereduzida\imprimirorientadorDepartamento
@@ -500,7 +502,7 @@
 		\makeatletter
 		\begin{minipage}{\textwidth}
 			\begin{SingleSpacing}
-				{\SingleSpacing\ABNTEXfontereduzida No dia \imprimirdia~do mês de \imprimirMes~de \imprimirano, às \imprimirhoradefesa~horas, na sala \imprimirlocaldefesa~do Instituto de Ciências Exatas e Aplicadas, foi realizada a defesa de Monografia pelo(a) aluno(a) {\bfseries\imprimirautor}, sendo a Comissão Examinadora constituída pelos professores: Prof. \imprimirorientador\abntex@ifnotempty{\imprimircoorientador}{, Prof. \imprimircoorientador}\abntex@ifnotempty{\imprimirconvidadoUm}{, Prof. \imprimirconvidadoUm}\abntex@ifnotempty{\imprimirconvidadoDois}{, Prof. \imprimirconvidadoDois}\abntex@ifnotempty{\imprimirconvidadoTres}{, Prof. \imprimirconvidadoTres}. O(a) candidato(a) apresentou a monografia intitulada: ``{\bfseries\imprimirtitulo}''. A comissão examinadora deliberou, por unanimidade, pela aprovação do candidato, com nota \rule{2cm}{.1mm} (\rule{6cm}{.1mm}), concedendo-lhe o prazo de 15 dias para incorporação das alterações sugeridas ao texto final. Na forma regulamentar, foi lavrada a presente ata que é assinada pelos membros da Comissão Examinadora e pelo(a) graduando(a).}%
+				{\SingleSpacing\ABNTEXfontereduzida No dia \imprimirdia~do mês de \imprimirMes~de \imprimirano, às \imprimirhoradefesa~horas, na sala \imprimirlocaldefesa~do Instituto de Ciências Exatas e Aplicadas, foi realizada a defesa de Monografia pelo(a) aluno(a) {\bfseries\imprimirautor}, sendo a Comissão Examinadora constituída pelos professores: \imprimirorientador\abntex@ifnotempty{\imprimircoorientador}{, \imprimircoorientador}\abntex@ifnotempty{\imprimirconvidadoUm}{, \imprimirconvidadoUm}\abntex@ifnotempty{\imprimirconvidadoDois}{, \imprimirconvidadoDois}\abntex@ifnotempty{\imprimirconvidadoTres}{, \imprimirconvidadoTres}. O(a) candidato(a) apresentou a monografia intitulada: ``{\bfseries\imprimirtitulo}''. A comissão examinadora deliberou, por unanimidade, pela aprovação do candidato, com nota \rule{2cm}{.1mm} (\rule{6cm}{.1mm}), concedendo-lhe o prazo de 15 dias para incorporação das alterações sugeridas ao texto final. Na forma regulamentar, foi lavrada a presente ata que é assinada pelos membros da Comissão Examinadora e pelo(a) graduando(a).}%
 			\end{SingleSpacing}
 		\end{minipage}%
 		\makeatother
@@ -509,7 +511,7 @@
 
     \abntex@ifnotempty{\imprimirorientador}{%
       \assinatura{
-        Prof. \imprimirorientador \linebreak
+        \imprimirorientador \linebreak
         \ABNTEXfontereduzida\imprimirorientadorTitulacao \linebreak
 %       Orientador \linebreak
         \ABNTEXfontereduzida\imprimirorientadorDepartamento
