@@ -18,11 +18,12 @@ As demais pastas foram incluídas como apoio aos itens, além de conter arquivos
   + **config** &rarr; dados e pacotes.
   + **img** &rarr; imagens e afins.
 
-** Atualizações: **
+**Atualizações:**
 
-  + Documento da Resolução COSI (20/03/2018)
-  + Retirada da Ata de Defesa
-  + Criação do campo da disciplina do TCC [config/dados.tex](/config/dados.tex)
+  + 2019-03-11:
+    - Documento da Resolução COSI (20/03/2018)
+    - Retirada da Ata de Defesa
+    - Criação do campo da disciplina do TCC [config/dados.tex](/config/dados.tex)
 
 ---
 
