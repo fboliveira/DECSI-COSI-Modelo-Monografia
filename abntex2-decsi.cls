@@ -27,10 +27,14 @@
 %% ------------------------
 %%  - 2017/08/25 - Correções na Folha de Aprovação e na Ata - remover "Prof."
 %% ------------------------
+%% = Fernando B. Oliveira, fboliveira@ufop.edu.br (v1.3)
+%%    - Correções para a utilização do nome do curso
+%%    - Criação do nome da disciplina de TCC
+%%    - Atualizações nas folhas com o curso e a disciplina
 
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{abntex2-decsi}[2017/03/30 v1.2 Modelo do Departamento de Computação e Sistemas da Universidade Federal de Ouro Preto baseado em abnTeX2]
+\ProvidesClass{abntex2-decsi}[2019/03/11 v1.3 Modelo do Departamento de Computacao e Sistemas da Universidade Federal de Ouro Preto baseado em abnTeX2]
 
 %
 % Repassa todos os parametros a classe abntex2,
@@ -67,6 +71,10 @@
 % Define comando para o nome do grau
 \providecommand{\imprimirgrau}{}
 \newcommand{\grau}[1]{\renewcommand{\imprimirgrau}{#1}}
+
+% Define comando para a disciplina de TCC
+\providecommand{\imprimirdisciplina}{}
+\newcommand{\disciplina}[1]{\renewcommand{\imprimirdisciplina}{#1}}
 
 % Define comando para o dia de defesa
 \providecommand{\imprimirdia}{}
@@ -353,7 +361,7 @@
     \abntex@ifnotempty{\imprimirpreambulo}{%
       \begin{minipage}{.9\textwidth}
         \begin{SingleSpacing}
-          {\SingleSpacing\bfseries Monografia apresentada ao Instituto de Ci{\^e}ncias Exatas e Aplicadas da Universidade Federal de Ouro Preto como requisito parcial da disciplina CSI499 -- Trabalho de Conclus{\~a}o de Curso II do curso de Bacharelado em Sistemas de Informa{\c c}{\~a}o e aprovada pela Banca Examinadora abaixo assinada:}%
+          {\SingleSpacing\bfseries Monografia apresentada ao Instituto de Ci{\^e}ncias Exatas e Aplicadas da Universidade Federal de Ouro Preto como requisito parcial da disciplina \imprimirdisciplina{} do curso de Bacharelado em \imprimircurso{} e aprovada pela Banca Examinadora abaixo assinada:}%
         \end{SingleSpacing}
       \end{minipage}%
     }%
