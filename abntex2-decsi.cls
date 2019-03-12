@@ -27,10 +27,11 @@
 %% ------------------------
 %%  - 2017/08/25 - Correções na Folha de Aprovação e na Ata - remover "Prof."
 %% ------------------------
-%% = Fernando B. Oliveira, fboliveira@ufop.edu.br (v1.3)
+%% = Fernando B. Oliveira, fboliveira@ufop.edu.br (v1.3): Março, 2019
 %%    - Correções para a utilização do nome do curso
 %%    - Criação do nome da disciplina de TCC
 %%    - Atualizações nas folhas com o curso e a disciplina
+%%    - Inclusão da Declaração de conformidade
 
 
 \NeedsTeXFormat{LaTeX2e}
@@ -599,5 +600,67 @@
 
 \newcommand{\imprimiratadedefesa}[1][\atadedefesaname]{%
 	\imprimiratadedefesaenv%
+}
+\makeatother
+
+% ------------------------------------------------------------------------
+% DECLARAÇÃO DE CONFORMIDADE
+% ------------------------------------------------------------------------
+
+% Conteúdo da Declaração de Conformidade
+\makeatletter
+\newcommand{\declaracaoDeConformidadeContent}{
+	\begin{center}
+
+		{\ABNTEXchapterfont\bfseries\Large DECLARAÇÃO DE CONFORMIDADE}
+
+		\vspace*{\fill}
+
+		\makeatletter
+			\begin{minipage}{.9\textwidth}
+				\begin{SingleSpacing}
+					{\SingleSpacing Certifico que o(a) aluno(a) {\bfseries\imprimirautor}, autor do trabalho de conclusão de curso intitulado ``{\itshape\bfseries\imprimirtitulo}'' efetuou as correções sugeridas pela banca examinadora e que estou de acordo com a versão final do trabalho.}%
+				\end{SingleSpacing}
+			\end{minipage}%
+		\makeatother
+
+		\vspace*{\fill}
+
+		{\ABNTEXchapterfont\imprimirlocal, \noindent\rule{1.5cm}{0.4pt} de \noindent\rule{5cm}{0.4pt} de \noindent\rule{2cm}{0.4pt}.}
+
+		\vspace*{\fill}
+
+		\abntex@ifnotempty{\imprimirorientador}{%
+			\assinatura{
+				\imprimirorientador \linebreak
+			}
+		}%
+
+		\vspace*{\fill}
+	\end{center}
+}
+\makeatother
+
+% ---
+% Declaração de Conformidade
+\newenvironment{declaracaodeconformidade}{%
+	\clearpage%
+	\thispagestyle{empty}
+	\begin{SingleSpacing}
+		%\ABNTEXfontereduzida
+	}{%
+	\end{SingleSpacing}\PRIVATEclearpageifneeded
+}%
+% ---
+
+\makeatletter
+\newcommand{\imprimirdeclaracaodeconformidadeenv}[0]{%
+	\begin{declaracaodeconformidade}
+		\declaracaoDeConformidadeContent
+	\end{declaracaodeconformidade}
+}
+
+\newcommand{\imprimirdeclaracaodeconformidade}[1][\declaracaodeconformidadename]{%
+		\imprimirdeclaracaodeconformidadeenv%
 }
 \makeatother

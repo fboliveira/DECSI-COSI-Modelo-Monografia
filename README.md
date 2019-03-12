@@ -1,7 +1,7 @@
 # Modelo de Monografia do COSI/DECSI
 ___
 
-Este documento é um modelo de monografia para o **Curso de Sistemas de Informação (SI)**. Este curso é vinculado ao **[Departamento de Computação e Sistemas (DECSI)](http://decsi.ufop.br/)** do [Instituto de Ciências Exatas e Aplicadas (ICEA)](http://www.icea.ufop.br) da [Universidade Federal de Ouro Preto (UFOP)](http://www.ufop.br/). O modelo foi elaborado de acordo com a [Resolução n&#186; 012 do Colegiado de Sistemas de Informação (COSI)](/documentos/documentos/Resolucao-COSI-012-Trabalho-de-Conclusao-de-Curso-1-e-2-v20180320.pdf) de 7 de março de 2016 (com atualização em 20 de março de 2018). Para a utilização deste documento em outros cursos recomenda-se a verificação junto ao colegiado em questão acerca do modelo apropriado. Contribuições importantes ao modelo foram feitas pelo COSI e pela equipe da Biblioteca de João Monlevade.
+Este documento é um modelo de monografia para o **Curso de Sistemas de Informação (SI)**. Este curso é vinculado ao **[Departamento de Computação e Sistemas (DECSI)](http://decsi.ufop.br/)** do [Instituto de Ciências Exatas e Aplicadas (ICEA)](http://www.icea.ufop.br) da [Universidade Federal de Ouro Preto (UFOP)](http://www.ufop.br/). O modelo foi elaborado de acordo com a [Resolução n&#186; 012 do Colegiado de Sistemas de Informação (COSI)](/documentos/documentos/Resolucao-COSI-012-Trabalho-de-Conclusao-de-Curso-1-e-2-v20181021.pdf) de 7 de março de 2016 (com atualização em 20 de março de 2018 e revisão em 21 de outubro de 2018). Para a utilização deste documento em outros cursos recomenda-se a verificação junto ao colegiado em questão acerca do modelo apropriado. Contribuições importantes ao modelo foram feitas pelo COSI e pela equipe da Biblioteca de João Monlevade.
 
 O modelo é uma versão personalizada da classe **abnTeX2** e utilizada de acordo como a licença associada ([LaTeX Project Public License v1.3c](https://www.latex-project.org/lppl/)). Informações sobre a classe **abnTeX2** podem ser obtidas no [site](http://www.abntex.net.br/) e no [Github](https://github.com/abntex/abntex2).
 
@@ -20,10 +20,12 @@ As demais pastas foram incluídas como apoio aos itens, além de conter arquivos
 
 **Atualizações:**
 
-  + 2019-03-11:
-    - Documento da Resolução COSI (20/03/2018)
+  + 2019-03-12:
+    - Documento da Resolução COSI (version 20/03/2018, update 21/10/2018)
     - Retirada da Ata de Defesa
     - Criação do campo da disciplina do TCC [config/dados.tex](/config/dados.tex)
+    - Alteração do local do Termo de Responsabilidade. O documento está na penúltima página da monografia e não após a folha de aprovação, como nas versões anteriores.
+    - Inclusão da Declaração de Conformidade - última página da monografia.
 
 ---
 

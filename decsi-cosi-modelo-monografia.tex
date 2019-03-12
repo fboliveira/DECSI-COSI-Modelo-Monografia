@@ -13,8 +13,9 @@
 %% 		- Inclusão do Termo de Responsabilidade e da Ata de Defesa atualizada.
 %% 		- Estrutura do documento LaTeX
 %% = Fernando B. Oliveira, fboliveira@ufop.edu.br (v1.3)
-%%    - Correções conforme as alterações da resolução do COSI de 20/03/2018.
+%%    - Correções conforme as alterações da resolução do COSI de 20/03/2018 (update 21/10/2018).
 %%    - Retirada da Ata
+%%    -
 %% = Contribuições: COSI e Biblioteca JM
 %% -----------------------------------------------------------------------
 %% ESTE MODELO FOI BASEADO EM:
@@ -153,21 +154,6 @@
 %
 
 % \imprimiratadedefesa%
-% ---
-
-% ---
-% Termo de Responsabilidade
-% ---
-
-% Isto é um exemplo de termo de responsabilidade, um documento obrigatório conforme a Resolução do COSI.
-% Você pode utilizar este modelo até a aprovação do trabalho.
-% Após isso, substitua todo o conteúdo deste arquivo por uma
-% imagem da página assinada pela banca com o comando abaixo:
-%
-% \includepdf{termo-de-responsabilidade.pdf}
-%
-
-\imprimirtermoderesponsabilidade%
 % ---
 
 %\hrule
@@ -362,14 +348,45 @@
 
 \end{anexosenv}
 
+% ---
+% Termo de Responsabilidade
+% ---
+
+% 20190312 - a posição deste foi alterada conforme orientações do COSI/Biblioteca. Ele deve vir ao final da monografia e não no início, como anteriormente.
+
+% Isto é um exemplo de termo de responsabilidade, um documento obrigatório conforme a Resolução do COSI.
+% Você pode utilizar este modelo até a aprovação do trabalho.
+% Após isso, substitua todo o conteúdo deste arquivo por uma
+% imagem da página assinada por você com o comando abaixo:
+%
+% \includepdf{termo-de-responsabilidade.pdf}
+%
+
+\imprimirtermoderesponsabilidade%
+% ---
+
+% ---
+% Declaração de Conformidade
+% ---
+
+% Isto é um exemplo de declaração de conformidade, um documento obrigatório conforme a Resolução do COSI.
+%
+% Art. 27 - art. 6: A versão digital da monografia deverá conter, na última página, a Declaração de Conformidade (Anexo IX) devidamente assinada pelo professor orientador.
+%
+% Você pode utilizar este modelo até a aprovação do trabalho.
+% Após isso, substitua todo o conteúdo deste arquivo por uma
+% imagem da página assinada pelo(a) seu(sua) orientador(a) com o comando abaixo:
+%
+% \includepdf{declaracao-de-conformidade.pdf}
+%
+
+\imprimirdeclaracaodeconformidade%
+
 %---------------------------------------------------------------------
 % INDICE REMISSIVO
 %---------------------------------------------------------------------
 \phantompart%
 \printindex
 %---------------------------------------------------------------------
-
-% Art. 27 - art. 6: A versão digital da monografia deverá conter, na última página, a Declaração de Conformidade (Anexo IX) devidamente assinada pelo professor orientador.
-
 
 \end{document}
