@@ -3,7 +3,9 @@ ___
 
 Este documento é um modelo de monografia para o **Curso de Sistemas de Informação (SI)**. Este curso é vinculado ao **[Departamento de Computação e Sistemas (DECSI)](http://decsi.ufop.br/)** do [Instituto de Ciências Exatas e Aplicadas (ICEA)](http://www.icea.ufop.br) da [Universidade Federal de Ouro Preto (UFOP)](http://www.ufop.br/). O modelo foi elaborado de acordo com a [Resolução n&#186; 012 do Colegiado de Sistemas de Informação (COSI)](/documentos/documentos/Resolucao-COSI-012-Trabalho-de-Conclusao-de-Curso-1-e-2-v20181021.pdf) de 7 de março de 2016 (com atualização em 20 de março de 2018 e revisão em 21 de outubro de 2018). Contribuições importantes ao modelo foram feitas pelo COSI e pela equipe da Biblioteca de João Monlevade.
 
-Cursos e colegiados que **autorizaram** a utilizarem este modelo:
+A primeira versão da classe e do modelo do DECSI foi desenvolvida pelo [Prof. Glauber Modolo Cabral](https://github.com/glaubersp). Em seguida, atualizações foram realizadas pelo aluno [Oto Braz](https://github.com/otobraz). As adequações às resoluções foram realizadas a partir das versões desenvolvidas por eles.
+
+Cursos e colegiados que **autorizaram** a utilização deste modelo:
 
 + Colegiado de Engenharia de Computação (COEC) - a partir de Março/2019.
 

@@ -17,10 +17,10 @@
 
 %% ------------------------
 %% Versions and updates:
-%% = Glauber M. Cabral, glauber@decsi.ufop.br (v1.0)
-%% = Oto Braz Assunção, oto.braz@outlook.com (v1.1)
+%% = Glauber M. Cabral, https://github.com/glaubersp (v1.0)
+%% = Oto Braz Assunção, https://github.com/otobraz (v1.1)
 %% 		- Adequações à nova resolução do COSI.
-%% = Fernando B, Oliveira, fernando@decea.ufop.br (v1.2)
+%% = Fernando B, Oliveira, fboliveira@ufop.edu.br (v1.2)
 %% 		- Correções na Folha de Aprovação.
 %%		- Mudanças na capa
 %% 		- Inclusão do Termo de Responsabilidade e da Ata de Defesa atualizada.
