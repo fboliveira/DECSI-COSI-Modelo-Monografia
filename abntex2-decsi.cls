@@ -32,10 +32,14 @@
 %%    - Criação do nome da disciplina de TCC
 %%    - Atualizações nas folhas com o curso e a disciplina
 %%    - Inclusão da Declaração de conformidade
-
+%% ------------------------
+%% = Fernando B. Oliveira, fboliveira@ufop.edu.br (v1.3.1): Março, 2020
+%%    - Remover o "TERMO DE RESPONSABILIDADE" (penúltima página); 
+%%    - Remover a "DECLARAÇÃO DE CONFORMIDADE" (última página).
+%% ------------------------
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{abntex2-decsi}[2019/03/11 v1.3 Modelo do Departamento de Computacao e Sistemas da Universidade Federal de Ouro Preto baseado em abnTeX2]
+\ProvidesClass{abntex2-decsi}[2020/03/04 v1.3.1 Modelo do Departamento de Computacao e Sistemas da Universidade Federal de Ouro Preto baseado em abnTeX2]
 
 %
 % Repassa todos os parametros a classe abntex2,
@@ -337,7 +341,7 @@
 
 
 % ------------------------------------------------------------------------
-% FOLHA DE APROVACAO
+% FOLHA DE APROVACAO - REMOVIDO - 2020-04-03
 % ------------------------------------------------------------------------
 
 % Conteúdo da folha de aprovação
@@ -434,7 +438,7 @@
 \makeatother
 
 % ------------------------------------------------------------------------
-% TERMO DE RESPONSABILIDADE
+% TERMO DE RESPONSABILIDADE - REMOVIDO - 2020-04-03
 % ------------------------------------------------------------------------
 
 % Conteúdo do Termo de Responsabilidade
@@ -496,7 +500,7 @@
 \makeatother
 
 % ------------------------------------------------------------------------
-% Ata de Defesa
+% Ata de Defesa - retirada na atualização da Resolução COSI de 20/03/2018
 % ------------------------------------------------------------------------
 
 % Conteúdo da Ata de Defesa
@@ -604,7 +608,7 @@
 \makeatother
 
 % ------------------------------------------------------------------------
-% DECLARAÇÃO DE CONFORMIDADE
+% DECLARAÇÃO DE CONFORMIDADE - REMOVIDO - 2020-04-03
 % ------------------------------------------------------------------------
 
 % Conteúdo da Declaração de Conformidade
