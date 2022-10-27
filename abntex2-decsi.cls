@@ -37,9 +37,12 @@
 %%    - Remover o "TERMO DE RESPONSABILIDADE" (penúltima página); 
 %%    - Remover a "DECLARAÇÃO DE CONFORMIDADE" (última página).
 %% ------------------------
+%% = Fernando B. Oliveira, fboliveira@ufop.edu.br (v1.3.1.1): Outubro, 2022
+%%    - Correção mês de Outubro por extenso (obrigado Marco Antônio Brandão Carvalho )
+%% ------------------------
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{abntex2-decsi}[2020/03/04 v1.3.1 Modelo do Departamento de Computacao e Sistemas da Universidade Federal de Ouro Preto baseado em abnTeX2]
+\ProvidesClass{abntex2-decsi}[2020/03/04 v1.3.1.1 Modelo do Departamento de Computacao e Sistemas da Universidade Federal de Ouro Preto baseado em abnTeX2]
 
 %
 % Repassa todos os parametros a classe abntex2,
@@ -120,7 +123,7 @@
   \or Julho% 7
   \or Agosto% 8
   \or Setembro% 9
-  \or Outubto% 10
+  \or Outubro% 10
   \or Novembro% 11
   \or Dezembro% 12
 \fi}
